@@ -3,7 +3,27 @@
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "init": "^0.1.2",
     "joi": "^17.9.2",
     "pg-promise": "^11.5.3"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "practice-backend",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiandreMiller/backend-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiandreMiller/backend-practice/issues"
+  },
+  "homepage": "https://github.com/DiandreMiller/backend-practice#readme"
 }
