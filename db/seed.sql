@@ -20,7 +20,7 @@ INSERT INTO groceries (name, category, image_url, description, price, quantity, 
 
 INSERT INTO reviews (groceries_id, reviewer, title, content, rating )
 VALUES
- (1, 'Evan', 'My Favorite', 'This website crushes it when it comes to awesome explanations', 3),
+(1, 'Evan', 'My Favorite', 'This website crushes it when it comes to awesome explanations', 3),
 (2, 'Evan', 'My Favorite', 'This website crushes it when it comes to inspiring me', 3),
 (3, 'Evan', 'My Least Favorite', 'This website crushes it when it comes to destroying my patience', 5),
 (5, 'Juliana', 'I Love Going Here', 'I finally got some good organic Vegetables', 5),
