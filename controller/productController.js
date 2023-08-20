@@ -1,6 +1,8 @@
 const express = require('express');
 const products = express.Router();
 
+const productValidator = require('../validations/productValidator');
+
 const {
     getAllProducts,
     getProduct

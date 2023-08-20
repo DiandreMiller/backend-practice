@@ -45,11 +45,11 @@ const createAReview = async (review) => {
 
 const updateReview = async (id, review) => {
     try {
-        const updateReview = await db.one(
+        const updateAReview = await db.one(
             `UPDATE reviews SET reviewer_rating=$1, reviewer_comment=$2`
             [review.reviewer_rating, review.reviewer_comment]
         );
-        return { updateReview };
+        return { updateAReview };
     } catch (error) {
         return { error: error }
     }
