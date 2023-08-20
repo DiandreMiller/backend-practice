@@ -11,7 +11,7 @@ CREATE TABLE stores (
     store_city TEXT NOT NULL,
     store_image TEXT,
     store_hours TEXT NOT NULL,
-    store_phone_number NUMERIC,
+    store_phone_number TEXT,
     accepts_ebt BOOLEAN DEFAULT true
 );
 
